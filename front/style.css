@@ -1,0 +1,29 @@
+body {
+    background-color: #25274d;
+    font-family:Arial;
+}
+
+
+
+p {
+    color: #AAABB8;
+    
+}
+
+nav{
+    color: #AAABB8;
+}
+
+aside {
+    background-color: #464866;
+    width: 20%;
+    height: 100%;
+    opacity: 0.53;
+}
+
+button{
+    opacity: 0;
+    width: 100%;
+    color: #D9D9D9;
+    
+}
