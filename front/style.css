@@ -20,18 +20,23 @@ header div{
 
 table{
     text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
-    background: rgba(70, 72, 102, 0.7);
     width: 90%;
-    border-radius: 5px;
-    border-spacing: 5px;
     margin-top: 2%;
+    box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
 }
+
+tr {
+    box-shadow: 0 0 10px red; 
+    background: rgba(70, 72, 102, 0.7);
+    border-radius: 10px;
+    
+    }
 
 .main_list img{
     transform: scale(0.4);
     fill: none;
 }
-
 
 .main_menu {
     width: 13%;
@@ -44,7 +49,6 @@ table{
     border-bottom-right-radius: 5px;
 }
 
-
 .profil img{
     transform: scale(100%);
     margin-left: 17%;
@@ -53,14 +57,13 @@ table{
     box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.5);
 }
 
-
 .profil h3{
     font-family: Inter, Arial, Helvetica, sans-serif;
     color: #D9D9D9;
     margin-left: 17%;
+    margin-right: 10%;
     text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
-
 
 .main_menu hr{
     background: #25274d;
@@ -90,7 +93,6 @@ table{
     display: block;
     padding: 5px;
     padding-left: 17%;
-
 }
 
 .menu_list a:hover{
@@ -132,14 +134,17 @@ table{
 }
 
 .content img{
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
     margin-top: 2%;
     width: 90%;
 }
 
+.content_list{
+    margin-top: 2%;
+}
 
-.end p{
+.end p {
     color: #AAABB8;   
     bottom: 0;
     text-align: center;
