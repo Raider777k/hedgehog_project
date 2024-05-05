@@ -29,6 +29,7 @@ table{
 
 .main_list img{
     transform: scale(0.4);
+    fill: none;
 }
 
 
@@ -74,10 +75,11 @@ table{
 .menu_list ul{
     list-style-type: none;
     margin-top: 10%;
+    padding-left:0px;
 }
 
 .menu_list li{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .menu_list a{
@@ -85,10 +87,22 @@ table{
     text-decoration: none;
     opacity: 0.7;
     text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+    display: block;
+    padding: 5px;
+    padding-left: 17%;
+
+}
+
+.menu_list a:hover{
+    background-color: #464866;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .settings_in_list ul{
     list-style-type: none;
+    padding-left: 0;
 }
 
 .settings_in_list a{
@@ -96,6 +110,16 @@ table{
     text-decoration: none;
     opacity: 0.7;
     text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+    display: block;
+    padding: 5px;
+    padding-left: 17%;
+}
+
+.settings_in_list a:hover{
+    background-color: #464866;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 
@@ -121,6 +145,3 @@ table{
     text-align: center;
     text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
-
-
-
