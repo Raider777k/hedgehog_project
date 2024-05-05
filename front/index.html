@@ -8,51 +8,71 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" href="img/logo.jpeg">
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-    
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
+
+
   <body>
 
     <header>
-      <nav>
-        <p>Locatin</p>
-        <p>Time</p>
-        <p>Date</p>
-        <p>Search</p>
-      </nav>
+      <div>Location: Russian, Moscow</div>
+      <div>00:00:00</div>
+      <div>dd:mm:yyyy</div>
+      <div>Search</div>
     </header>
 
+      <nav>
+        <div class="main_menu">
 
-    <main>
+          <div class="profil"> 
+              <img src="img/avatar.png" alt="">
+            <h3> Nickname </h3>
+          </div>
+
+          <hr>  
+
+          <div class="menu_list">
+            <ul>
+              <li><a href="#">Line 1</a></li>
+              <li><a href="#">Line 2</a></li>
+              <li><a href="#">Line 3</a></li>
+              <li><a href="#">Line 4</a></li>
+              <li><a href="#">Line 5</a></li>
+            </ul>
+           </div>
+
+           <div class="settings_in_list">
+            <ul>
+              <li ><a href="#">Settings</a></li>
+            </ul>
+           </div>
+
+        </div>
+      </nav>
+
+
+
+    <main class="content">
       <section>
-        <h1>Заголовок страницы</h1>
-        Основная часть
+        <img src="img/temp_picture.jpeg" alt="">
+        <div>List</div>
+        <div class="main_list">
+          <table>
+            <tr><td></td><td>User name</td><td>Address</td><td>Coordinates</td><td>00:00:00</td><td>dd.mm.yyyy</td></tr>
+            <tr><td></td><td>User name</td><td>Address</td><td>Coordinates</td><td>00:00:00</td><td>dd.mm.yyyy</td></tr>
+            <tr><td></td><td>User name</td><td>Address</td><td>Coordinates</td><td>00:00:00</td><td>dd.mm.yyyy</td></tr>
+            <tr><td></td><td>User name</td><td>Address</td><td>Coordinates</td><td>00:00:00</td><td>dd.mm.yyyy</td></tr>
+          </table>
+        </div>
       </section>
     </main>
-
-
-
-    
-    <aside> 
-        <div class="dropdown-menu">
-             <div class="prfile"></div>
-
-            <div class="sideBar">
-                <div> <button> Line 1</button> </div>
-                <div> <button> Line 2</button> </div>
-                <div> <button> Line 3</button> </div>
-                <div> <button> Line 4</button> </div>
-                <div> <button> Line 5</button> </div>
-            </div>
-        </div>
-    </aside>
 
     
     
     <footer>
-      <p>Supported by Katukha's zagony 2024 y</p>
+      <div class="end">
+        <p>Supported by Katukha's zagony 2024 y.</p>
+      </div>
     </footer>
+
   </body>
 </html>
