@@ -34,7 +34,7 @@ tr {
 }    
 
 .main_list img{
-    transform: scale(0.3);
+    
 }
 
 .main_menu hr{
@@ -131,14 +131,14 @@ tr {
     color: #AAABB8;  
 }
 
-.content img{
+.map img{
     border-radius: 10px;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
     margin-top: 2%;
     width: 90%;
 }
 
-.content_list{
+.title_list {
     margin-top: 2%;
 }
 
