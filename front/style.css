@@ -22,21 +22,34 @@ table{
     text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
     width: 90%;
     margin-top: 2%;
-    box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.5);
     border-collapse: collapse;
 }
 
 tr {
-    box-shadow: 0 0 10px red; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);; 
     background: rgba(70, 72, 102, 0.7);
     border-radius: 10px;
     
     }
 
+.main_list {
+    border-radius: 5px;
+}    
+
 .main_list img{
     transform: scale(0.4);
     fill: none;
 }
+
+.main_menu hr{
+    background: #25274d;
+    height: 2px;
+    border:#25274d;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 
 .main_menu {
     width: 13%;
@@ -64,16 +77,6 @@ tr {
     margin-right: 10%;
     text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
-
-.main_menu hr{
-    background: #25274d;
-    height: 2px;
-    border:#25274d;
-    border-bottom-right-radius: 5%;
-    border-top-right-radius: 5%;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
 
 .menu_list ul{
     list-style-type: none;
